@@ -24,7 +24,7 @@ const inputSearch = document.querySelector(".input-search");
 
 const getApi = async () => {
   const response = await fetch(
-    `https://pokeapi.co/api/v2/pokemon/?limit=100&offset=0`
+    `https://pokeapi.co/api/v2/pokemon/?limit=60&offset=0`
   );
   const data = await response.json();
 
